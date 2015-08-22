@@ -1,53 +1,9 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>LearningWebDesign Exercises</title>
-  </head>
-  <body>
-  <h1>This is an app, not a folder!</h1>
-  <p>Since Codenvy treats this project folder like a web app, it always opens up this index.html file.
-  <strong>To open a file in this project you'll need to add a relative path to it to the end of this page's URL
-  in your browser.</strong> (Relative URLs are covered in chapter 6 of the book.)
-</p>
-  <h2>So how do get the relative URL?</h2>
-  <p> The relative path is really easy to figure out:
-  <ol>
-    <li>Type out the name of the file you want.</li>
-    <li>Follow the folde rhierarchy one level to the folder that contains your file.
-      <em>In front of the filename</em>, insert the folder name and then a slash.</li>
-    <li>Repeat step 2 for each folder up the hierarchy, each time inserting the folder name
-    and a slash to the front of our relative URL.</li>
-  </ol>
-</p>
-  <p>For example, here's a step-by-step to create the path to the couscous.html file inside the jenskitchen folder:
-  <ol>
-    <li>path = coucous.html</li>
-    <li>path = pasta/coucous.html</li>
-    <li>path = recipes/pasta/couscous.html</li>
-    <li>path = jenskitchen/recipes/pasta/couscous.html</li>
-  </ol>
-</p>
-  <p>Once you get used to creating relative URLs, you'll start creating them
-  from the top of the hierarchy. It's slightly quicker that way.</p>
-  <h2>What do I do once I've got the relative URL</h2>
-  <p>Paste your path to the end of the end of the URL in your browser. Then you may want to add it to the links below.</p>
+# The *Learning Web Design* tutorials
 
- <h2>A few convenient links (which might not work until you're done)</h2>
- <ul>
- <li><a href="bistro/index.html">bistro/index.html</a></li>
- <li><a href="bistro/recipe.html">bistro/recipe.html</a></li>
- <li><a href="bistro/post.html">bistro/post.html</a></li>
- <li><a href="bistro/blog.html">bistro/blog.html</a></li>
- <li><a href="jenskitchen/index.html">jenskitchen/index.html</a></li>
- <li><a href="jenskitchen/recipes/tapenade.html">jenskitchen/recipes/tapenade.html</a></li>
- <li><a href="jenskitchen/recipes/salmon.html">jenskitchen/recipes/salmon.html</a></li>
- <li><a href="jenskitchen/recipes/pasta/couscous.html">jenskitchen/recipes/pasta/couscous.html</a></li>
- <li><a href="jenskitchen/recipes/pasta/linguine.html">jenskitchen/recipes/pasta/linguine.html</a></li>
- <li> <strong>... Add your own here as you go along ...</strong></li>
- <li><a href="Ch16/mountolympus-ex1.html">Ch16/mountolympus-ex1.html</a></li>
- <li><a href="Ch16/mountolympus-ex2.html">Ch16/mountolympus-ex2.html</a></li>
- </ul>
+This repository is where you will do your homework from the *Learning Web Design* textbook. Follow the instructions given in the book except as directed below.
 
-
-  </body>
-</html>
+* **Do not edit anything inside the `LWD4e_materials` folder**, which is downloaded from the Author's website for your convenience. You may need to copy some files from there, however. Just don't copy the solutions; that would be cheating!
+* **Ignore any software suggestions in the book.** We are using Atom, GitHub, ad Chrome/Firefox for everything.
+* **Do not create any redundant copies of any files or folders.** If there are multiple revisions or versions of a file, then use Git to track them. You can have as many version of a files as you like with Git. So, don't create a `Chapter 4` folder for the `bistro` project; just use the `bistro` folder instead. When you return to the `bistro` project in later chapters, just go back to the project folder and `commit` your new work as a new version.
+* **Commit your work (i.e., add a new version) at the end of each exercise**. Don't wait until the end of the chapter. It's better to commit early and often, before you mess something up. Each `commit` should always have a meaningful *commit comment* that indicates what work was performed. In this case, indicate what exercise was completed: "Completed exercise 6-2" is much better than "Entered some HTML. Yay!"
+* **Push your local repository to GitHub at the end of each chapter.** This will give you a backup in case your computer crashes. Don't laugh, that has happened to at leas one student every semester we have offered this course. It will also give your instructor a way to see your work and provide help if you get stuck.
