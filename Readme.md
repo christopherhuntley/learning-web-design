@@ -1,4 +1,4 @@
-# The *Learning Web Design* tutorials
+# The *Learning Web Design* Tutorials
 
 This repository is where you will do your homework from the *Learning Web Design* textbook. Follow the instructions given in the book except as directed below.
 
